@@ -2,9 +2,6 @@
 body{
     font-family: 'Lacquer', cursive;
 }
-h1{
-    animation-duration: 5s;
-}
 .mb-0{
     text-decoration: line-through;
 }

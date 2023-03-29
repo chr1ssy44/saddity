@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 body{
     font-family: 'Lacquer', cursive;
+    background-color:#E0E1DD;
+    color: #415A77;
 }
 .mb-0{
     text-decoration: line-through;
+}
+h2{
+    text-decoration: overline;
+}
+input{
+    background-color:#E0E1DD;
+    border-color: #1b263b;
+    border-radius: 8px;
+    
 }

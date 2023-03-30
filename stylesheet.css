@@ -14,5 +14,16 @@ input{
     background-color:#E0E1DD;
     border-color: #1b263b;
     border-radius: 8px;
-    
+}
+button[type=submit]{
+    background-color:#bcd1ea;
+}
+#klutch{
+    text-decoration:underline;
+}
+#nike{
+    text-decoration: underline;
+}
+strong{
+    color: #7A95FF;
 }

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Croissant+One&family=Yomogi&display=swap');
 body{
-    font-family: 'Lacquer', cursive;
+    font-family: 'Chilanka', cursive;
     background-color:#E0E1DD;
     color: #415A77;
 }
@@ -26,4 +26,10 @@ button[type=submit]{
 }
 strong{
     color: #7A95FF;
+}
+#pair{
+    color: #415A77;
+}
+#top{
+    color: #415A77;
 }

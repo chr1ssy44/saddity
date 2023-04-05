@@ -48,22 +48,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   <br>
   <p class="text-center">Here is where you comment your opinions! In the comments area please remember to specify the brand your are talking about!
   </p>
+  <form
+  action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+  method="post">
   <div class="col-lg-6 col-sm-4">
     <label for="firstName" class="form-label">First name</label>
     <input type="text" class="form-control" id="firstName" placeholder="John" value="" required>
-    <div class="invalid-feedback">
-      Valid first name is required.
-    </div>
   </div>
-
-  <div class="col-lg-6 col-sm-4"></div>
+  <div class="col-lg-6 col-sm-4">
     <label for="lastName" class="form-label">Last name</label>
     <input type="text" class="form-control" id="lastName" placeholder="Doe" value="" required>
-    <div class="invalid-feedback">
-      Valid last name is required.
     </div>
   <br>
-  <div class="input-group">
+  <div class="input-group col-lg-6 col-sm-4">
     <span class="input-group-text">Comments</span>
     <textarea class="form-control" aria-label="With textarea"></textarea>
   </div>
@@ -84,5 +81,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   </p>
   </div>
   </div>
+  </form>
 </body>
 </html>

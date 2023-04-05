@@ -37,6 +37,9 @@ strong{
 #creator{
     text-decoration: underline;
 }
+#mail{
+    padding-left: 500px;
+}
 @media screen and (min-width:370px) and (max-width:550px){
 }
     /*moblie-phone*

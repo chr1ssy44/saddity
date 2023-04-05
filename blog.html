@@ -28,6 +28,80 @@
 </script>
   <title>Blog|Saddity</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+  
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+  
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+  
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+  
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+  
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+  </style>
+  
 </head>
 <body>
   <div class="container">
@@ -50,89 +124,14 @@
     <li class="nav-item">
       <a class="nav-link" href="contact.html">contact</a>
     </ul>
-    </nav>
+    </div>
 </div>
-<style>
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
-
-  .b-example-divider {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-
-  .b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
-  }
-
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
-
-  .nav-scroller {
-    position: relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
-  }
-
-  .nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .btn-bd-primary {
-    --bd-violet-bg: #712cf9;
-    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: var(--bd-violet-bg);
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #6528e0;
-    --bs-btn-hover-border-color: #6528e0;
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #5a23c8;
-    --bs-btn-active-border-color: #5a23c8;
-  }
-  .bd-mode-toggle {
-    z-index: 1500;
-  }
-</style>
-
 
 <!-- Custom styles for this template -->
 <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="blog.css" rel="stylesheet">
-</head>
-<body>
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="check2" viewBox="0 0 16 16">
     <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -228,7 +227,7 @@
       <p class="card-text mb-auto">Palm Angels Reinterprets Barbour's Bedale Wax Jacket in Bold Colors</p>
     </div>
     <div class="col-auto d-none d-lg-block">
- <img src="palm-angels-barbour-bedale-wax-jacket-release-date-1.jpg" class="bd-placeholder-img" width="200" height="250">
+ <img src="palm-angels-barbour-bedale-wax-jacket-release-date-1.jpg" class="bd-placeholder-img" alt="Palm Angel Release" width="200" height="250">
     </div>
   </div>
 </div>
@@ -247,7 +246,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img style="width:100px;"src="images.jpg" class="d-block w-100 rounded float-start" alt="stacked jeans">
+            <img style="width:100px;" src="images.jpg" class="d-block w-100 rounded float-start" alt="stacked jeans">
             <div class="carousel-caption d-none d-md-block">
               <p class="text-black">STACKED JEANS</p>
             </div>
@@ -298,16 +297,21 @@
     <hr>
     <img class="wow animate__bounceInUp" src="Nike-Forward-Grey-Sweater-2022-9.jpg" alt="nike grey sweater" height="300" width="490">
     <h3 id="creator">Tyler the Creator Collabaration</h3>
-    <p>Tyler the Creator has released once again another collabaration through Golf Wang called the Golf Championship Collection. The collection includes outerwera, accessories, jerseys, t-shirts, sweaters, and more! This collection was released oh January 22nd, 2023 and is now available at the Golf Wang LA Flagship at store and online on the Gang Wang site.</p>
+    <p>Tyler the Creator has released once again another collabaration through Golf Wang called the Golf Championship Collection. The collection includes outerwear, accessories, jerseys, t-shirts, sweaters, and more! This collection was released oh January 22nd, 2023 and is now available at the Golf Wang LA Flagship at store and online on the Gang Wang site.</p>
     <hr>
     <img class="wow animate__bounceInUp" src="tyler.jpg" alt="Tyler the Creator Golf Wang clothing" height="300" width="490">
       <hr>
-      <div class="card text-center card-img-top" style="width: 18rem;">
-        <img src="airjordan.jpg" class="card-img-top" alt="Air Jordan 1 Retro High OG Lucky Green">
+      <p style="text-decoration: underline;" >SNEAKERS</p>
+      <div class="card text-center" style="width: 18rem;">
+        <img src="airjordan.jpg" class="wow animate__slideInLeft" alt="Air Jordan 1 Retro High OG Lucky Green">
         <div class="card-body">
-          <p class="card-text text-success">Colorway: Black/Lucky Green-White<br>Release Date:April 15,2023<br>Price:$180
-          </p>
+          <p class="card-text text-success">Colorway: Black/Lucky Green-White<br>Release Date:April 15,2023<br>Price:$180</p>
+          <hr>
         </div>
       </div>
-</body>
+    <div class="card text-center mx-auto round float-end" style="width: 18rem;">
+      <img src="yellow.jpg" class="wow animate__slideInRight" alt="Air Jordan 4 Retro'Thunder'2023">
+      <div class="card-body">
+      </div>
+        <p>Colorway:Black/Tour Yellow<br>Release Date:May 13,2023<br>Price:$210</p><hr>
 </html>

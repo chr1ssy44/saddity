@@ -3,6 +3,7 @@ body{
     font-family: 'Chilanka', cursive;
     background-color:#E0E1DD;
     color: #415A77;
+    margin: auto;
 }
 .mb-0{
     text-decoration: line-through;
@@ -36,3 +37,7 @@ strong{
 #creator{
     text-decoration: underline;
 }
+@media screen and (min-width:370px) and (max-width:550px){
+}
+    /*moblie-phone*
+{  
